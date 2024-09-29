@@ -1,0 +1,49 @@
+.info-ticket {
+    max-width: 636px;
+    width: 100%;
+}
+
+.info-ticket, .info-ticket__composition, .info-ticket__general-description {
+    margin-bottom: 40px;
+}
+
+.info-ticket__participant:not(:last-child) {
+    display: block;
+    margin-bottom: 15.4px;
+}
+
+.info-ticket__description:not(:last-child) {
+    margin-bottom: 6.02px;
+}
+
+.info-ticket__ward, .info-ticket__ward-number, .info-ticket__name, .info-ticket__item {
+    margin-bottom: 13.83px;
+}
+
+.info-ticket__ward, .info-ticket__ward > .info-ticket__name:last-child {
+    margin: 0;
+}
+
+.info-ticket__ward-number, .info-ticket__name {
+    display: block;
+}
+
+.info-ticket__item::before {
+    content: 'Концерт № ' counter(num) ' ';
+    counter-increment: num;
+}
+
+.info-ticket__cost, .info-ticket__btn {
+    margin-bottom: 40px;
+}
+
+.info-ticket__gallery {
+    display: flex;
+    column-gap: 24px;
+}
+
+.info-ticket__gallery > img {
+    border-radius: 12px;
+    width: 306px;
+    height: 210px;
+}

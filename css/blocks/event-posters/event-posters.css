@@ -1,0 +1,12 @@
+.event-posters {
+    padding-bottom: 150px;
+}
+
+.event-posters__title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.poster:not(:last-child) {
+    margin-bottom: 80px;
+}

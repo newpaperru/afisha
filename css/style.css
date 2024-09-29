@@ -1,0 +1,76 @@
+/* GLOBAL */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+
+
+/* BLOCKS */
+/* General */
+/* ---------------- */
+@import url("blocks/link.css");
+@import url("blocks/titles.css");
+@import url("blocks/btn.css");
+/* ---------------- */
+
+
+/* Header */
+/* ---------------- */
+@import url("blocks/header/header.css");
+@import url("blocks/header/menu-list.css");
+/* ---------------- */
+
+
+/* Main */
+/* Slider */
+/* ---------------- */
+@import url("blocks/main/slider/slider.css");
+@import url("blocks/main/slider/mini-block.css");
+/* ---------------- */
+
+/* Afisha */
+/* ---------------- */
+@import url("blocks/main/afisha/afisha.css");
+@import url("blocks/main/afisha/poster.css");
+/* ---------------- */
+
+/* Info */
+/* ---------------- */
+@import url("blocks/main/info/info.css");
+
+/* News */
+/* ---------- */
+@import url("blocks/main/info/news/news.css");
+/* ---------- */
+
+/* Calendar */
+/* ---------- */
+@import url("blocks/main/info/calendar/calendar.css");
+/* ---------- */
+/* ---------------- */
+
+
+/* Brief announcements */
+/* ---------------- */
+@import url("blocks/main/brief-announcements/brief-announcements.css");
+/* ---------------- */
+
+/* Footer */
+/* ---------------- */
+@import url("blocks/footer/footer.css");
+/* ---------------- */
+
+
+/* Event posters */
+/* ---------------- */
+@import url("blocks/event-posters/event-posters.css");
+/* ---------------- */
+
+/* Ticket */
+/* ---------------- */
+@import url("blocks/ticket/ticket.css");
+@import url("blocks/ticket/info-ticket.css");
+@import url("blocks/ticket/program.css");
+/* ---------------- */
+
+/* Contacts */
+@import url("blocks/contacts/contacts.css")

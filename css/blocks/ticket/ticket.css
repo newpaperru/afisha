@@ -1,0 +1,25 @@
+.ticket {
+    padding-bottom: 150px;
+}
+
+.ticket__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.ticket__title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2.titles {
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-bottom: 24px;
+}
+
+.ticket__img {
+    width: 526px;
+    height: 742px;
+    border-radius: 12px;
+}
